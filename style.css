@@ -1,0 +1,99 @@
+#blocpage
+{
+	margin: auto;
+}
+#logo
+{
+	width: 150px;
+	height: 150px;
+}
+#fb
+{
+	width: 40px;
+	height: 40px;
+}
+#insta
+{
+	width: 40px;
+	height: 40px;
+}
+#mail
+{
+	width: 40px;
+	height: 40px;
+}
+#phone
+{
+	width: 40px;
+	height: 40px;
+}
+#vincent
+{
+	width: 250px;
+	height: 250px;
+}
+body
+{
+	background: antiquewhite;
+	font-family: comic sans ms;
+	margin: auto;
+}
+header
+{
+	display: flex;
+	border-bottom: solid black;
+	justify-content: space-between;
+	align-items: flex-end;
+	background-image: url(img/fond.jpg);
+}
+nav ul
+{
+	list-style-type: none;
+	display: flex;
+}
+nav a
+{
+	text-decoration: none;
+	font-size: 1.3em;
+	color: black;
+	padding-bottom: 3px;
+	margin-right: 15px;
+}
+nav a:hover
+{
+	border: solid 3px;
+	border-radius: 6px 6px 6px 6px;
+}
+#section
+{
+	display: flex;
+	flex-direction: row;
+	margin-left: 5px;
+}
+article aside
+{
+	text-align: justify;
+}
+aside
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	border: solid black;
+	border-radius: 6px 6px 6px 6px;
+	margin: 3px;
+	padding: 3px;
+}
+footer
+{
+	text-align: center;
+}
+article
+{
+	display: flex;
+	flex-direction:row
+}
+img
+{
+	border-radius: 6px 6px 6px 6px;
+}

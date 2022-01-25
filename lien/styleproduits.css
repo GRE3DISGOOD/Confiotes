@@ -1,0 +1,46 @@
+#blocpage
+{
+	margin: auto;
+}
+#logo
+{
+	width: 150px;
+	height: 150px;
+}
+body
+{
+	background: antiquewhite;
+	font-family: comic sans ms;
+	margin: auto;
+}
+header
+{
+	display: flex;
+	border-bottom: solid black;
+	justify-content: space-between;
+	align-items: flex-end;
+	background-image: url(../img/fond.jpg);
+}
+nav ul
+{
+	list-style-type: none;
+	display: flex;
+
+}
+nav a
+{
+	text-decoration: none;
+	font-size: 1.3em;
+	color: black;
+	padding-bottom: 3px;
+	margin-right: 15px;
+}
+nav a:hover
+{
+	border: solid 3px;
+	border-radius: 6px 6px 6px 6px;
+}
+footer
+{
+	text-align: center;
+}
